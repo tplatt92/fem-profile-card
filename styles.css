@@ -1,0 +1,148 @@
+:root {
+
+--var-primary-cyan: hsl(185, 75%, 39%);
+--var-primary-dblue: hsl(229, 23%, 23%);
+--var-primary-gray: hsl(227, 10%, 46%);
+
+--var-neutral-dgray: hsl(0, 0%, 59%);
+
+--font-size: 1.125rem;
+
+--fw-normal: 400;
+--fw-bold: 700;
+
+}
+
+
+/*reset*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+    font-size: inherit
+}
+
+/*General Styling*/
+
+main {
+    position: relative;
+    height: 100vh;
+    background-color: var(--var-primary-cyan);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*background styling*/
+
+.background-img1, .background-img2 {
+    position: absolute;
+
+}
+
+.background-img1 {
+    bottom: 50%;
+    right: 50%
+}
+
+.background-img2 {
+    bottom:-50%;
+    left: 50%;
+
+}
+
+/*Card styling*/
+
+.card {
+    background-color: white;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 18px;
+    box-shadow: 5px 5px 8px 5px hsl(185, 75%, 37%);
+    z-index: 999;
+    margin: 0 1em;
+}
+
+.card-header {
+
+}
+
+.card-img {
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.profile {
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: var(--var-primary-dblue);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.place {
+    color: var(--var-primary-gray);
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+span {
+    color: var(--var-primary-gray);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid hsl(0, 0%, 90%);
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.number {
+    color: var(--var-primary-dblue);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.text {
+    color:hsl(0, 0%, 59%);
+    font-size: 12px;
+    font-weight: var(--fw-normal);
+    letter-spacing: 0.1em;
+}
+
+.attribution {
+    position: fixed;
+    width: 100%;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 12px;
+  }
