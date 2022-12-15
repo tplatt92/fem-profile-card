@@ -72,9 +72,6 @@ main {
     margin: 0 1em;
 }
 
-.card-header {
-
-}
 
 .card-img {
     position: absolute;
@@ -98,7 +95,7 @@ main {
 
 h1 {
     color: var(--var-primary-dblue);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -112,7 +109,7 @@ h1 {
 span {
     color: var(--var-primary-gray);
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .card-footer {
@@ -128,7 +125,7 @@ span {
 
 .number {
     color: var(--var-primary-dblue);
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
