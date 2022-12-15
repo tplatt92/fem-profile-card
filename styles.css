@@ -125,7 +125,7 @@ span {
 
 .number {
     color: var(--var-primary-dblue);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
